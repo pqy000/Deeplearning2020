@@ -15,7 +15,7 @@ from train_eval import train, evaluate, makeOptimizer
 
 parser = argparse.ArgumentParser(description='PyTorch Time series forecasting')
 parser.add_argument('--data', type=str, required=True,help='location of the data file')
-parser.add_argument('--model', type=str, default='LSTNet', help='')
+parser.add_argument('--model', type=str, default='CNN', help='')
 parser.add_argument('--window', type=int, default=24 * 7,help='window size')
 parser.add_argument('--horizon', type=int, default=12)
 
@@ -31,7 +31,7 @@ parser.add_argument('-d_k', type=int, default=64)
 parser.add_argument('-d_v', type=int, default=64)
 
 parser.add_argument('--clip', type=float, default=10.,help='gradient clipping')
-parser.add_argument('--epochs', type=int, default=2, help='upper epoch limit')
+parser.add_argument('--epochs', type=int, default=50, help='upper epoch limit')
 parser.add_argument('--batch_size', type=int, default=128, metavar='N', help='batch size')
 parser.add_argument('--dropout', type=float, default=0.2, help='dropout applied to layers (0 = no dropout)')
 parser.add_argument('--seed', type=int, default=54321,help='random seed')
