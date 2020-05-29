@@ -1,5 +1,7 @@
-# Deeplearning2020
-course project of Deep learning 2020 Spring
+# Deep Learning 2020
+Course project of Deep learning 2020 Spring
+
+## Time series forcasting for car dataset
 
 # Dataset
 
