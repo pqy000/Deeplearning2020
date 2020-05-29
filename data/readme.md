@@ -2,4 +2,6 @@
 
 Please put your data here, to train.
 
-The result should be based on ![avatar](1.png)
+The result may refer to ![avatar](https://s1.ax1x.com/2020/05/29/tuzer8.png)
+
+or ![avatar](https://s1.ax1x.com/2020/05/29/tuzer8.png)
