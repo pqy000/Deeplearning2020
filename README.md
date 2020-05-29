@@ -4,6 +4,8 @@ Course project of Deep learning 2020 Spring
 
 # Dataset
 
+The data should be downloaded into the ```data/```
+
 Dataset can be downloaded from 
 
 ```https://cloud.tsinghua.edu.cn/d/8d99739d05f0464f8986/  ```
@@ -22,6 +24,10 @@ The car dataset is from (547M)
 * Python 3.6+
 * Pytorch 1.0+
 * numpy
+
+### model
+
+The best model is saved in the directory ```save/```
 
 ### Example
 
