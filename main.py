@@ -58,9 +58,6 @@ torch.manual_seed(args.seed)
 if args.cuda:
     torch.cuda.manual_seed(args.seed)
 
-import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "3"
-
 # Load data
 Data = Data_utility(args.data, 0.6, 0.2, device, args)
 # loss function
