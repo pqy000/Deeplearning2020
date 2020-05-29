@@ -120,7 +120,8 @@ def plot_results(predicted_data, true_data):
     ax.plot(predicted_data, label='Prediction')
     plt.legend()
     plt.show()
-    plt.savefig("display.png")
+    figname = str(args.model)+"_"+str(args.horizon)+"_"+str(args.data)+".png"
+    plt.savefig(figname)
     plt.close()
 
 # Load the best saved model.
