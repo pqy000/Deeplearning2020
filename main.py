@@ -116,7 +116,7 @@ def plot_results(predicted_data, true_data):
     ax.plot(predicted_data, label='Prediction')
     plt.legend()
     plt.show()
-    figname = str(args.model)+"_"+str(args.horizon)+"_"+str(args.data)+".png"
+    figname = str(args.model)+"_"+str(args.horizon)+"_"+str(args.data[-8:-5])+".png"
     plt.savefig(figname)
     plt.close()
 
