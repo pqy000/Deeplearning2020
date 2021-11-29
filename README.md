@@ -1,6 +1,6 @@
-# Deep Learning 2020
+# Deep Learning for Interpretable Time Series forecasting
 
-Course project of Deep learning 2020 Spring
+Course project of Interpretable Time Series forecasting
 
 # Dataset
 
